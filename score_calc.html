@@ -60,80 +60,65 @@
  			</ul>
 		</div> 
 	</nav>
-
-        <!-- Content Section -->
+	
+	
+	
+	
+	
+	        <!-- Content Section -->
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="contentbox">
-                <h1 class="page_title">Champion Meta Diversity Regional Comparison</h1>
+                <h1 class="page_title">Diversity Score Calculation</h1>
                 <hr>
-				</br>
-				  <p>The following is a table of the calculated diversity scores of each region <a href="score_calc.html" class="bluefont">(how scores were calculated)</a>.
-					We can also see the number of champions with at least 30% and 50% presence in the meta. 30 and 50 were just arbitrarily chosen by me but seem like a good numbers
-					to represent strong standing in the meta. Curiously, I wanted to see how many champs had less than a 1% presence. RIP</br>
-					<img src="images/sad_kitten.png" width="70" height="70"  alt="sad bee emote">
-				</p>
+					<img src="images/pengu.png" class="center_img" alt="pengudab">
+				  <p class="calc">Here, I will explain how I calculated the diversity scores. I got the idea and took a very similar approach to a calculation that I found on the web <a href="https://www.patreon.com/posts/measuring-29510941" class="bluefont" target="_blank">(diversity calculation)</a>,
+				  but I will try to explain it better here.</p>
+				  <hr>
+						<p class="calc">In order to get an idea on how to form a diversity scale, take a look at the following graph. Here we are simulating two scenarios: perfect diversity and no diversity. Perfect diversity would
+						mean that each champion would be equally present throughout all games. Since there are 148 champions, 20 champions per game (remember bans are also included), each champion would need
+						to be present in (20/148)x100 or 13.51% of all games. A no diversity situation would mean that the same 20 champions would be present in all games (100% presence) and the rest will have 0%
+						presence. 
+						<img src="league_data/images/Min_diversity.png" class="diversity_plot calc_img" id="Min_diversity" alt="diversity calc, vis">
+						</p>
+						<p class="calc">
+						To create the diversity scale, we are going to calculate the area (A) between the diversity line and the perfect diversity line. Subtract 13.51 from each champion presence (P), take the
+							absolute value and sum all those values.
+							<br></br>
+						A = summation[abs(P-13.51)]
+						<br></br>
+						So for the no diversity situation, we would calculate abs(100-13.51)*20 + abs(0-13.51)*128 which gives us 3,459.08 or the maximum area. The perfect diversity would have an area of 0 (duh). Now we
+						 have created the basis for our diversity scale, but we want it to be from 0-100, 0 being least diverse and 100 being most diverse. Basically we can take the calculated area (A) divide by the max area (min diversity),
+						 3,459.08 and multiply by 100 to get it to a 100 scale. But we also need to invert the scale, so we will take that result and subtract it from 1:
+				        <br></br>
+						1-A/3,459.08
+						<br></br>
+						There you have it!
+						
+						</p>
 				
 				
 				
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">region</th>
-<th title="Field #2">diversity</th>
-<th title="Field #3">unique champions</th>
-<th title="Field #4"># of champions with at least 50% presence</th>
-<th title="Field #5"># of champions with at least 30% presence</th>
-<th title="Field #6"># of champions with less than 1% presence</th>
-</tr></thead>
-<tbody><tr>
-<td>LCS</td>
-<td align="right">26.92</td>
-<td align="right">87</td>
-<td align="right">15</td>
-<td align="right">29</td>
-<td align="right">61</td>
-</tr>
-<tr>
-<td>LPL</td>
-<td align="right">28.16</td>
-<td align="right">100</td>
-<td align="right">17</td>
-<td align="right">25</td>
-<td align="right">67</td>
-</tr>
-<tr>
-<td>LEC</td>
-<td align="right">30.84</td>
-<td align="right">107</td>
-<td align="right">16</td>
-<td align="right">25</td>
-<td align="right">41</td>
-</tr>
-<tr>
-<td>LCK</td>
-<td align="right">31.86</td>
-<td align="right">105</td>
-<td align="right">14</td>
-<td align="right">26</td>
-<td align="right">62</td>
-</tr>
-<tr>
-<td>All</td>
-<td align="right">32.32</td>
-<td align="right">131</td>
-<td align="right">13</td>
-<td align="right">27</td>
-<td align="right">56</td>
-</tr>
-</tbody></table>
-
-             
-              </div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+				
+				
+		     </div>
             </div>
 
 
-   </div>
-            </div>
+      </div>
+    </div>
 
 
 
