@@ -10,6 +10,7 @@ body {
 }
 
 
+
 .container p{
 	font-size: 15px;
 	position:relative;
@@ -119,16 +120,21 @@ color: white;}
     height:auto;;
 }
 
-.title_plot{
-	padding-bottom:5px;
-	max-width:70%;
+
+.center_img{
+
+	height: 200px;
+	width: 200px;
+    max-width:100%;
     height:auto;
+	margin: auto;    
+    display: block;
 }
 
 .vis_plot{
 	max-height:100%;
 	max-width:100%;
-	padding-bottom:10px;
+	padding-bottom:5px;
 }
 
 .container_scroll{
@@ -155,8 +161,10 @@ color: white;}
 	background: cyan;
 	}
 
-.table {
-	overflow-x:auto;
-	overflow-y:auto;}
-	
-	
+
+.center_vis{
+	hieght:190px;
+	width:190px;
+	margin: auto;    
+    display: block;
+}
