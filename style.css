@@ -1,0 +1,162 @@
+body {
+  background:rgb(0,255,255,.2);
+}
+.whitefont{
+	color:white}
+	
+	
+.bluefont{
+	color:#5383e8;
+}
+
+
+.container p{
+	font-size: 15px;
+	position:relative;
+    bottom:15px;
+	padding-left:5px;
+
+	}
+
+.contentbox {
+  border-radius: 15px;
+  border: 5px solid #5383e8;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: -20px;
+  padding: 15px; 
+  color:black;
+  background-color: white;
+  
+
+}
+
+.contentbox2 {
+  border-radius: 15px;
+  border: 5px solid red;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: -20px;
+  padding: 15px; 
+  color:black;
+  background-color: white;
+  
+
+}
+
+
+.rightcontentbox {
+  border-radius: 15px;
+  border: 5px solid #5383e8;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-right:-20px;
+  color:black;
+  background-color: white; 
+  position: fixed;
+  width: 400px;
+  padding-bottom:10px;
+
+  
+
+}
+	
+.page_title{
+  padding: 10px;
+  color:#5383e8;
+  font-size:25px;
+  text-align:center;}
+  
+.ban_title{
+  padding: 10px;
+  color:red;
+  font-size:25px;
+  text-align:center;}
+  
+.vis_title{
+
+  padding-top: 15px;
+  color:#5383e8;
+  font-size:20px;
+  text-align:center;}
+
+.navbar-brand{
+
+  padding: inherit;
+  margin-left: 50px;
+  font-weight: bold; 
+  font-family: "Helvetica Neue",Helvetica,"Apple SD Gothic Neo",AppleGothic,Dotum,Arial,Tahoma;
+
+}
+
+.navbar .navbar-brand #text {
+    color: white;
+	position:relative;
+    top:4px;
+	left:5px;
+}
+
+.nav-link .textalign {
+	position:relative;
+    top:4px;
+}
+
+
+.dropdown-menu{
+background-color:#5383e8; }
+
+.navbar #navbarSupportedContent"{
+color: white;}
+	
+
+.navbar{	
+	max-height: 70px}
+
+.diversity_plot{
+	padding-bottom: 5px;
+	padding-right: 5px;
+	max-width:100%;
+    height:auto;;
+}
+
+.title_plot{
+	padding-bottom:5px;
+	max-width:70%;
+    height:auto;
+}
+
+.vis_plot{
+	max-height:100%;
+	max-width:100%;
+	padding-bottom:10px;
+}
+
+.container_scroll{
+	position: fixed;}
+	  
+	  
+.vis_plot:hover{
+	border-radius: 20px;
+    border: 5px solid #5383e8
+	;  
+}
+
+.dropdown-item:hover {
+	background: cyan;}
+	
+.nav-item :hover {
+	border-radius: 15px;
+	background: cyan;
+	color:#5383e8;
+	}
+	
+.navbar-brand:hover {
+	border-radius: 15px;
+	background: cyan;
+	}
+
+.table {
+	overflow-x:auto;
+	overflow-y:auto;}
+	
+	

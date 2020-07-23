@@ -1,0 +1,175 @@
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Meta Diversity</title> 
+  
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5383e8;">
+		<a class="navbar-brand" href="index.html">
+	
+		  <img src="images/ahri.jpg" width="50" height="50" class="rounded" alt="Ahri" alt="" loading="lazy">
+		 <span id="text">LOL Data</span>
+		 
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+    
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="whitefont">Champion Meta Diversity</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="total_data.html"><span class="whitefont">Total</span></a>
+					  <a class="dropdown-item" href="lcs_data.html"><span class="whitefont">LCS</span></a>
+					  <a class="dropdown-item" href="lec_data.html"><span class="whitefont">LEC</span></a>
+					  <a class="dropdown-item" href="lpl_data.html"><span class="whitefont">LPL</span></a>
+					  <a class="dropdown-item" href="lck_data.html"><span class="whitefont">LCK</span></a>
+					  
+					</div>
+				</li>
+				
+					</li>
+				<li class="nav-item">
+				<a class="nav-link" href="comparison.html"><span class="whitefont">Regional Comparison</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="score_calc.html"><span class="whitefont">Diversity Score Calculation</span></a>
+		
+	  
+			<li class="nav-item">
+				<a class="nav-link" href="data.html"><span class="whitefont">Data</span></a>
+			</li>
+ 			</ul>
+		</div> 
+	</nav>
+
+
+        <!-- Content Section -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div class="contentbox">
+                <h1 class="page_title">Champion Meta Diversity: LCS</h1>
+                <hr>
+                <img src="league_data/images/LCS_diversity.png" class="diversity_plot" id="lcs_diversity" alt="Champion Meta Diversity, LCS">
+				<br></br>
+                <p>Here is the diversity graph for LCS in the Spring 2020 split. Among the 148 unique champions, 87 were played or banned at least once during the split.
+				The diversity score for all LCS was 26.92 out of 100. As somewhat expected, LCS had the lowest diversity score among all regions <a href="comparison.html" class="bluefont">(region comparisons)</a>
+					There were 15 champions with an incredibly strong presence in the meta with at least a 50% presence. In order of presence, those champions include:<br></br>
+					Aphelios, Sett, Aatrox, Syndra, Senna, Ornn, Tahm Kench, LeBlanc, Rumble, Gragas, Lee Sin, Zoe, Jarvan IV, Xayah, Nautilus
+
+				</p>
+              </div>
+            </div>
+		
+	
+            <div class="col-lg-4 col-md-12">
+              <!-- Right Box -->
+              <div class="rightcontentbox">
+                <h6 class="vis_title">Visualizations: LCS</h6>
+                <hr>
+      
+            
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <a href="lcs_data.html">
+                        <img class="vis_plot text-center" src="league_data/images/LCS_diversity.png" alt="Meta Diversity LCS Img">
+                      </a>
+                    </div>
+                  </div>
+      
+                  <div class="row">
+                    <div class="col-6">
+                      <a href="lcs_data.html#lcs_picked">
+                        <img class="vis_plot" src="league_data/images/LCS_picks.png" alt="Most Picked Champs LCS">
+                      </a>
+                    </div>
+                    <div class="col-6">
+                      <a href="lcs_data.html#lcs_banned">
+                        <img class="vis_plot" src="league_data/images/LCS_bans.png" alt="Most Banned Champs LCS">
+                      </a>
+                    </div>
+      
+      
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+        
+
+
+
+
+		
+		
+		
+		</div>
+		</div>		
+			
+	    <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div class="contentbox">
+                <h1 class="page_title">Champion Meta Most Picked: LCS</h1>
+                <hr>
+                <img src="league_data/images/LCS_picks.png" class="diversity_plot" id="lcs_picked" alt="Champion Meta Diversity, LCS">
+				<br></br>
+                <p>Here is a graph showing the most picked champions in the meta. Wasn't expecting Aatrox at the top of the list.</p>
+				</p>
+              </div>
+            </div>
+	
+	
+	
+		</div>
+		</div>
+		
+		    <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div class="contentbox2">
+                <h1 class="ban_title">Champion Meta Most Banned: LCS</h1>
+                <hr>
+                <img src="league_data/images/LCS_bans.png" class="diversity_plot" id="lcs_banned" alt="Champion Meta Diversity, LCS">
+				<br></br>
+                <p>Here is a graph showing the most banned champions in the meta. Surprisingly LeBlanc was the most banned champion of the split.
+					I thought that there weren't that many strong LeBlanc players in NA, but could be wrong. Rumble was also somewhat surprising to 
+					see, but now that I think about it, he did have a solid presence in the meta and was probably banned every game Huni played.</p>
+				</p>
+              </div>
+            </div>
+	
+	
+	
+		</div>
+		</div>
+			
+			
+			
+			
+	
+
+
+  
+</body>
+</html>  
