@@ -32,6 +32,8 @@ body {
 
 }
 
+
+
 .contentbox2 {
   border-radius: 15px;
   border: 5px solid red;
@@ -58,6 +60,18 @@ body {
   width: 400px;
   padding-bottom:10px;
 
+ 
+}
+
+
+.centercontentbox {
+  border-radius: 15px;
+  border: 5px solid #5383e8;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  padding: 15px; 
+  color:black;
+  background-color: white;
   
 
 }
@@ -166,4 +180,41 @@ color: white;}
 	margin: auto;    
     display: block;
 	padding-bottom:5px;
+}
+
+
+@media(max-width: 993px){
+.navbar-expand-lg{
+background-color: #000080;
+}
+body {
+  background:rgb(83, 131, 232,.2);
+}
+
+.contentbox {
+  border-radius: 10px;
+  border: 5px solid #000080;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: -20px;
+  padding: 15px; 
+  color:black;
+  background-color: white;
+  
+
+}
+
+.contentbox2 {
+  border-radius: 10px;
+  border: 5px solid #000080;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: -20px;
+  padding: 15px; 
+  color:black;
+  background-color: white;
+  
+
+}
+
 }
