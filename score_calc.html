@@ -1,131 +1,90 @@
 <html lang="en-us">
-
-<head>
-
-  <meta charset="UTF-8">
-  <title>Meta Diversity</title> 
-  
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  
-</head>
-
-<body>
-
-	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark">
-		<a class="navbar-brand" href="index.html">
-	
-		  <img src="images/ahri.png" width="50" height="50" class="rounded" alt="Ahri" alt="" loading="lazy">
-		 <span id="text">LOL 200 Years</span>
-		 
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-    
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<span class="whitefont">Champion Meta Diversity</span>
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					  <a class="dropdown-item" href="total_data.html"><span class="whitefont">Total</span></a>
-					  <a class="dropdown-item" href="lcs_data.html"><span class="whitefont">LCS</span></a>
-					  <a class="dropdown-item" href="lec_data.html"><span class="whitefont">LEC</span></a>
-					  <a class="dropdown-item" href="lpl_data.html"><span class="whitefont">LPL</span></a>
-					  <a class="dropdown-item" href="lck_data.html"><span class="whitefont">LCK</span></a>
-					  
-					</div>
-				</li>
-				
-				
-				<li class="nav-item">
-				<a class="nav-link" href="comparison.html"><span class="whitefont">Regional Comparison</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="score_calc.html"><span class="whitefont">Diversity Score Calculation</span></a>
-		</li>
-	  
-			<li class="nav-item">
-				<a class="nav-link" href="data.html"><span class="whitefont">Data</span></a>
-			</li>
- 			</ul>
-		</div> 
-	</nav>
-	
-	
-	
-	
-	
-	        <!-- Content Section -->
-        <div class="container">
-          <div class="row">
+   <head>
+      <meta charset="UTF-8">
+      <title>Meta Diversity</title>
+      <!-- Bootstrap CDN -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <a class="navbar-brand" href="index.html">
+         <img src="images/ahri.png" width="50" height="50" class="rounded" alt="Ahri" alt="" loading="lazy">
+         <span id="text">LOL 200 Years</span>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="whitefont">Champion Meta Diversity</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="total_data.html"><span class="whitefont">Total</span></a>
+                     <a class="dropdown-item" href="lcs_data.html"><span class="whitefont">LCS</span></a>
+                     <a class="dropdown-item" href="lec_data.html"><span class="whitefont">LEC</span></a>
+                     <a class="dropdown-item" href="lpl_data.html"><span class="whitefont">LPL</span></a>
+                     <a class="dropdown-item" href="lck_data.html"><span class="whitefont">LCK</span></a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="comparison.html"><span class="whitefont">Regional Comparison</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="score_calc.html"><span class="whitefont">Diversity Score Calculation</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="data.html"><span class="whitefont">Data</span></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- Content Section -->
+      <div class="container">
+         <div class="row">
             <div class="col-md-12">
-              <div class="contentbox">
-                <h1 class="page_title">Diversity Score Calculation</h1>
-                <hr>
-					<img src="images/pengu.png" class="center_img" alt="pengudab">
-				  <p class="calc">Here, I will explain how I calculated the diversity scores. I got the idea and took a very similar approach to a calculation that I found on the web <a href="https://www.patreon.com/posts/measuring-29510941" class="bluefont" target="_blank">(diversity calculation)</a>,
-				  but I will try to explain it better here.</p>
-				  <hr>
-						<p class="calc">In order to get an idea on how to form a diversity scale, take a look at the following graph. Here we are simulating two scenarios: perfect diversity and no diversity. Perfect diversity would
-						mean that each champion would be equally present throughout all games. Since there are 148 champions, 20 champions per game (remember bans are also included), each champion would need
-						to be present in (20/148)x100 or 13.51% of all games. A no diversity situation would mean that the same 20 champions would be present in all games (100% presence) and the rest will have 0%
-						presence. 
-						<img src="league_data/images/Min_diversity.png" class="diversity_plot calc_img" id="Min_diversity" alt="diversity calc, vis">
-						</p>
-						<p class="calc">
-						To create the diversity scale, we are going to calculate the area (A) between the diversity line and the perfect diversity line. Subtract 13.51 from each champion presence (P), take the
-							absolute value and sum all those values.
-							<br></br>
-						A = summation[abs(P-13.51)]
-						<br></br>
-						So for the no diversity situation, we would calculate abs(100-13.51)*20 + abs(0-13.51)*128 which gives us 3,459.08 or the maximum area. The perfect diversity would have an area of 0 (duh). Now we
-						 have created the basis for our diversity scale, but we want it to be from 0-100, 0 being least diverse and 100 being most diverse. Basically we can take the calculated area (A) divide by the max area (min diversity),
-						 3,459.08 and multiply by 100 to get it to a 100 scale. But we also need to invert the scale, so we will take that result and subtract it from 1:
-				        <br></br>
-						1-A/3,459.08
-						<br></br>
-						There you have it!
-						
-						</p>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-		
-				
-				
-		     </div>
+               <div class="contentbox">
+                  <h1 class="page_title">Diversity Score Calculation</h1>
+                  <hr>
+                  <img src="images/pengu.png" class="center_img" alt="pengudab">
+                  <p class="calc">Here, I will explain how I calculated the diversity scores. I got the idea and took a very similar approach to a calculation that I found on the web <a href="https://www.patreon.com/posts/measuring-29510941" class="bluefont" target="_blank">(diversity calculation)</a>,
+                     but I will try to explain it better here.
+                  </p>
+                  <hr>
+                  <p class="calc">In order to get an idea on how to form a diversity scale, take a look at the following graph. Here we are simulating two scenarios: perfect diversity and no diversity. Perfect diversity would
+                     mean that each champion would be equally present throughout all games. Since there are 148 champions, 20 champions per game (remember bans are also included), each champion would need
+                     to be present in (20/148)x100 or 13.51% of all games. A no diversity situation would mean that the same 20 champions would be present in all games (100% presence) and the rest will have 0%
+                     presence. 
+                     <img src="league_data/images/Min_diversity.png" class="diversity_plot calc_img" id="Min_diversity" alt="diversity calc, vis">
+                  </p>
+                  <p class="calc">
+                     To create the diversity scale, we are going to calculate the area (A) between the diversity line and the perfect diversity line. Subtract 13.51 from each champion presence (P), take the
+                     absolute value and sum all those values.
+                     <br></br>
+                     A = summation[abs(P-13.51)]
+                     <br></br>
+                     So for the no diversity situation, we would calculate abs(100-13.51)*20 + abs(0-13.51)*128 which gives us 3,459.08 or the maximum area. The perfect diversity would have an area of 0 (duh). Now we
+                     have created the basis for our diversity scale, but we want it to be from 0-100, 0 being least diverse and 100 being most diverse. Basically we can take the calculated area (A) divide by the max area (min diversity),
+                     3,459.08 and multiply by 100 to get it to a 100 scale. But we also need to invert the scale, so we will take that result and subtract it from 1:
+                     <br></br>
+                     1-A/3,459.08
+                     <br></br>
+                     There you have it!
+                  </p>
+               </div>
             </div>
-
-
+         </div>
       </div>
-    </div>
-
-
-
-
-
-
-
-
-</body>
-</html>  
+	  <br></br>
+	  <br></br>
+   </body>
+   <footer>
+      <p>&copy; Copyright Coding Bootcamp 2020</p>
+   </footer> 
+</html>
