@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-Welcome to my web project. This project is an analysis on the champion meta diversity in the professional Leauge of Legends scene.
+Welcome to my web project. This project is an analysis on the champion meta diversity in the professional League of Legends scene.
 
 Link to my site:
 
