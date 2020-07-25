@@ -1,2 +1,7 @@
 # Web-Design-Challenge
-web design!
+
+Welcome to my web project. This project is an analysis on the champion meta diversity in the professional Leauge of Legends scene.
+
+Link to my site:
+
+https://github.com/asianhenry/asianhenry.github.io
