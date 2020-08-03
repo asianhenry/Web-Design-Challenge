@@ -4,4 +4,4 @@ Welcome to my web project. This project is an analysis on the champion meta dive
 
 Link to my site:
 
-https://asianhenry.github.io/Web-Design-Challenge/
+https://asianhenry.github.io/champion-meta-lol/
