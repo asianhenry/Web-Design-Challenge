@@ -1,0 +1,6 @@
+region,diversity,unique champions,# of champions with at least 50% presence,# of champions with at least 30% presence,# of champions less than perfect diversity presence (13.07%),# of champions with less than 1% presence
+LCK,26.04423560603325,98,15,27,109,76
+LEC,30.1372168055818,95,12,27,112,58
+LCS,27.454884881566866,90,18,22,110,63
+LPL,26.80450976314832,98,16,27,113,72
+All,28.434860267246552,120,14,28,111,68
